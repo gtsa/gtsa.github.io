@@ -134,11 +134,9 @@
                     </address>
                     <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="#0" role="button">Download CV</a>
                       <ul class="list-unstyled list-inline content-follow">
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-github"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/gtsa/"><i class="icon ion-logo-github"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/gtsagiannis/"><i class="icon ion-logo-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/tsa_yanis"><i class="icon ion-logo-twitter"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -648,14 +646,14 @@
               <div class="row">
                 <!-- Contact form-->
                 <div class="col-12 col-lg-7">
-                  <form class="contact-form" action="https://formspree.io/f/mrgvzkjd" method="POST">
+                  <form class="contact-form" id="contact-form" action="https://formspree.io/f/mrgvzkjd" method="POST">
                     <h4 class="content-title">Message Me</h4>
                     <div class="row">
-                      <div class="col-12 col-md-6 form-group"><input class="form-control" type="text" name="name" placeholder="Name" required=""></div>
-                      <div class="col-12 col-md-6 form-group"><input class="form-control" type="email" name="email" placeholder="Email" required=""></div>
-                      <div class="col-12 form-group"><input class="form-control" type="text" name="subject" placeholder="Subject" required=""></div>
-                      <div class="col-12 form-group form-message"><textarea class="form-control" name="message" placeholder="Message" required=""></textarea></div>
-                      <div class="col-12 form-submit"><button class="btn button-main button-scheme" type="submit">Send Message</button>
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
+                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
+                      <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
+                      <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message"  name="message" placeholder="Message" rows=5 required=""></textarea></div>
+                      <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit" type="submit">Send Message</button>
                         <p class="contact-feedback"></p>
                       </div>
                     </div>
@@ -671,8 +669,8 @@
                         <p class="contact-feedback"></p>
                       </div>
                     </div>
-                  </form>
-                </div> -->
+                  </form> -->
+                </div>
                 <!-- Contact info-->
                 <div class="col-12 col-lg-5">
                   <div class="contact-info">
