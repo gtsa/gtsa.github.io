@@ -1888,6 +1888,42 @@ hr {
   color: #797979 !important;
 }
 
+.typewriter h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin-bottom: 0;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid rgb(255, 218, 148); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* .technologies {
+  margin: 3px;
+} */
+
+.technologies img {
+  margin: 10px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 218, 148); }
+}
+
 @media (max-width: 1199.98px) {
   .contact-section .contact-form .form-group {
     margin-bottom: 35px;
@@ -1907,5 +1943,8 @@ hr {
 @media (max-width: 767.98px) {
   .contact-section .contact-info .info-description {
     font-size: 14px;
+  }
+  .typewriter .home-headline {
+    font-size: 23px;
   }
 }
