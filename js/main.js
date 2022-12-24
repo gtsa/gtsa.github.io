@@ -7,18 +7,6 @@
  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
  */
 
-/*----------- Table of Contents -----------*/
-
-/**
- * Globals
- * Navbar
- * Home
- * Services
- * Testimonials
- * Contact
- * Preloader
- * Portfolio
- */
 
 (function($) {
   'use strict';
