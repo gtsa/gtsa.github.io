@@ -287,6 +287,20 @@ a:not(.btn):focus {
   background-color: #c93e70;
 }
 
+.skills-section .filter-control>li:hover,
+.skills-section .filter-control>li.tab-active {
+  color: #d05682;
+}
+
+.skills-section .filter-control>li:hover:before,
+.skills-section .filter-control>li.tab-active:before {
+  background-color: #d05682;
+}
+
+.skills-section .content-more {
+  color: #c93e70;
+}
+
 /*----------- Portfolio lightbox -----------*/
 /* Portfolio: Portfolio */
 .portfolio-section .filter-control>li:hover,
